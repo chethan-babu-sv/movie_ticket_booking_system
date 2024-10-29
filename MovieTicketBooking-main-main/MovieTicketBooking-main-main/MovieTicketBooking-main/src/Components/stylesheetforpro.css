@@ -1,0 +1,44 @@
+.itemgrid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    justify-content: center;
+  }
+  
+  .fig {
+    text-align: center;
+    border: 2px solid #ccc; /* Add border */
+    padding: 20px; /* Increase padding */
+  }
+  
+  .img {
+    width: 100%;
+    height: auto;
+  }
+  
+  .pa {
+    padding: 10px;
+  }
+  
+  button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 8px 16px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #0056b3;
+  }
+  .already-saved {
+    background-color: green;
+  }  
+  .button{
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 8px 16px;
+    cursor: pointer;
+    text-decoration: none;
+  }
